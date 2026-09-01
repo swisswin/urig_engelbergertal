@@ -518,4 +518,6 @@ body {
     .footer-links {
         gap: 15px;
     }
+     .kontakt-picture { text-align: center; margin-bottom: 1rem; } .kontakt-image { display: inline-block; width: 100%; max-width: 200px; /* change to 300px / 500px as you prefer */ height: auto; border-radius: 6px;
+    }
 }

@@ -520,4 +520,36 @@ body {
     }
      .kontakt-picture { text-align: center; margin-bottom: 1rem; } .kontakt-image { display: inline-block; width: 100%; max-width: 200px; /* change to 300px / 500px as you prefer */ height: auto; border-radius: 6px;
     }
+    /* Checkbox styling */
+    .checkbox-group {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        order: -1; /* Moves checkbox to the left */
+    }
+
+    .checkbox-group input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+        min-width: 18px;
+        padding: 0;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        flex-shrink: 0;
+        order: 0; /* Checkbox first */
+    }
+
+    .checkbox-group input[type="checkbox"]:focus {
+        outline: none;
+        border-color: #2d5016;
+    }
+
+    .checkbox-group label {
+        font-size: 14px;
+        color: #555;
+        cursor: pointer;
+        margin: 0;
+        order: 1; /* Text after */
+    }
 }

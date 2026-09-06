@@ -428,6 +428,54 @@ body {
     text-decoration: underline;
 }
 
+/* Datenschutz Section */
+
+.section-datenschutz {
+    background-color: #f9f9f9;
+}
+
+.datenschutz-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.datenschutz-content h3 {
+    font-size: 20px;
+    color: #2d5016;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.datenschutz-content p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.datenschutz-content ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.datenschutz-content ul li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.datenschutz-content a {
+    color: #2d5016;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.datenschutz-content a:hover {
+    text-decoration: underline;
+}
+
 /* ================================
    CTA BUTTON
    ================================ */
